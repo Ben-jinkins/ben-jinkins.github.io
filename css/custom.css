@@ -81,7 +81,16 @@
          opacity: 0;
          transition: 1s ease;
          }
-		  .social:hover{
-		opacity: .5;	  
+
+		.social{
+		width: 50px;
+		opacity: .5;
+		}
+ 		@media screen and (min-width: 760px) {
+		 .social{width: 20px;}
+		 }
+		.social:hover{
+		opacity: .2;
+	    
 		 } 
-		  
+		
